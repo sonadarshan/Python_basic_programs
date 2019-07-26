@@ -1,0 +1,20 @@
+s='Sonadarshan'
+print(f's[0]: {s[0]}')
+print(f's[-1]: {s[-1]}')
+print(f's[:6]: {s[:6]}')
+print(f's[2:]: {s[2:]}')
+print(f's[2:5]: {s[2:5]}')
+print(f's[1:-1]: {s[1:-1]}')
+print(f's[-1:1]: {s[-1:2]}')
+print(f'String length: {len(s)}')
+print("Upper,Lower,Title")
+print(s.upper())
+print(s.lower())
+print(s.title())
+print(f'Finding the a in string : {s.find("a")}')
+s.replace('s','S')
+print("Replacing s with S")
+print('string in string')
+print('s' in s)
+
+
